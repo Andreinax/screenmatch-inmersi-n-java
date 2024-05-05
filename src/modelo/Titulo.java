@@ -1,5 +1,7 @@
 package modelo;
 
+
+
 public class Titulo {
     private String nombre;
     private int fechaDeLanzamiento;
@@ -7,6 +9,9 @@ public class Titulo {
     private boolean incluidoEnElPlanBasico;
     private String sinopsis;
     private int tiempoDeDuracionEnMinutos;
+
+
+
 
     public int getTiempoDeDuracionEnMinutos() {
         return tiempoDeDuracionEnMinutos;
